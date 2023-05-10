@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PortFolio - Samuel RESSIOT</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">PortFolio</a>
+        <div class="nav-links ">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">My projects</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </div>
+        <img src="assets/img/menu-btn.png" alt="Menu hamburger" class="menu-hamburger">
+    </nav>
+    <header>
+    </header>
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>

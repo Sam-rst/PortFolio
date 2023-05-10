@@ -5,39 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>PortFolio - Samuel RESSIOT</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Space+Grotesk&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#" class="logo">PortFolio</a>
-        <div class="nav-links ">
-            <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">My projects</a></li>
-                <li><a href="#">Contact me</a></li>
-            </ul>
-        </div>
-        <img src="assets/img/menu-btn.png" alt="Menu hamburger" class="menu-hamburger">
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-    </nav>
-    <header>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-</body>
-<script>
-    const menuHamburger = document.querySelector(".menu-hamburger")
-    const navLinks = document.querySelector(".nav-links")
+    <!-- Home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, my name is</h3>
+            <h1>Samuel RESSIOT</h1>
+            <h3>And I'm a <span>Video Games Developper</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus nihil inventore sapiente dolor nobis
+                dolores. Suscipit, tempore.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="assets/pdf/CV Ressiot Samuel companies.pdf" class="btn">Download CV</a>
+        </div>
 
-    menuHamburger.addEventListener('click', ()=>{
-        navLinks.classList.toggle('mobile-menu')
-    })
-</script>
+        <div class="home-img">
+            <img src="assets/img/avatar-Samuel.png" alt="Avatar Samuel">
+
+        </div>
+    </section>
+
+    <!-- About section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/img/avatar-Samuel.png" alt="Avatar Samuel">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fuga aliquam ipsum perferendis pariatur,
+                ipsa aperiam, asperiores assumenda sit quae in dolore ullam possimus officia dolores iusto repudiandae
+                veniam repellendus eveniet. Vero odit repudiandae sed, quas labore assumenda mollitia, adipisci
+                recusandae facere, in et deleniti repellat?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt fugit nesciunt
+                    praesentium. Asperiores, qui?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt fugit nesciunt
+                    praesentium. Asperiores, qui?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
 
 </html>
