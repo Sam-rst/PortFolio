@@ -1,3 +1,6 @@
+-- Create the BDD portfolio
+CREATE DATABASE portfolio;
+
 -- Use the portfolio BDD
 USE portfolio;
 
