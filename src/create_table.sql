@@ -1,3 +1,7 @@
+-- Delete BDD portfolio or tables
+DROP TABLE contacts;
+DROP DATABASE portfolio;
+
 -- Create the BDD portfolio
 CREATE DATABASE portfolio;
 

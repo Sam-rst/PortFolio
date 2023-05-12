@@ -17,5 +17,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ";
 
     $pdo->query($sql);
-    header('Location: index.html');
+    header('Location: ../../index.html');
 }

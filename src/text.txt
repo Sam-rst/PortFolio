@@ -1,3 +1,7 @@
+==========~~~~~ BOT Discord ~~~~~==========
+Invite link : https://discord.com/api/oauth2/authorize?client_id=1106474374858555402&permissions=1634235578432&scope=bot
+Token : MTEwNjQ3NDM3NDg1ODU1NTQwMg.G4MWcK.chaqgto8HQN6gH2iFDcns6T9lv8fghuzpkWfA4
+Discord channel : 1106480713055875154
 ==========~~~~~ Home ~~~~~==========
 #FR
 Je suis passioné par le monde de l'informatique et du jeu vidéo depuis tout petit, c'est pour cela que j'aimerai devenir développeur de jeux vidéos indépendants. Je suis ravi de vous présenter mon portfolio.
